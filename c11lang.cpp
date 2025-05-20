@@ -318,21 +318,21 @@ int main()
     Tuples();
 
 
-	std::cout << "\nSample: Tuples with std::apply" << std::endl;
-	tupple_apply();
+    std::cout << "\nSample: Tuples with std::apply" << std::endl;
+    tupple_apply();
 
-	std::cout << "\nSample: Variadic Template" << std::endl;
-	VariadicTemplate();
+    std::cout << "\nSample: Variadic Template" << std::endl;
+    VariadicTemplate();
 
-	std::cout << "\nSample: Variadic Arguments" << std::endl;
-	MyFn(2, 3.14, "Four");
-	MyFn("Hello", ' ', "World");
+    std::cout << "\nSample: Variadic Arguments" << std::endl;
+    MyFn(2, 3.14, "Four");
+    MyFn("Hello", ' ', "World");
 
     std::cout << "\nSample: Variadic Templates" << std::endl;
     VariadicFun();
 
-	std::cout << "\nSample: Variadic Template Expansion" << std::endl;
-	Expando("Sum: ", 1, " + ", 2, " = ", 3);	
-	return 0;
+    std::cout << "\nSample: Variadic Template Expansion" << std::endl;
+    Expando("Sum: ", 1, " + ", 2, " = ", 3);	
+    return 0;
 }
 
