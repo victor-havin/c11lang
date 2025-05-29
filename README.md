@@ -4,7 +4,11 @@ Originally created as C++11 feature demo, but extended to C++17.
 # Build instructions
 Compile and run with g++ on Linux.
 Make file included.
-Code samples in this demo:
+    ```bash
+    make all
+    ```
+
+# Code samples in this demo:
 
 * any type
 * auto types
@@ -16,3 +20,7 @@ Code samples in this demo:
 * Variadic types
 * Variadic arguments access
 
+# License
+
+No license required.
+No warranty of any kind.
